@@ -1,0 +1,244 @@
+<!DOCTYPE html><html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العروض | LAMSA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head><body><!-- الشريط العلوي -->
+<div class="top-bar">
+    عروض خاصة لفترة محدودة ✨ لا تفوتي الفرصة
+</div>
+<!-- القائمة الرئيسية -->
+<header class="header">
+    <div class="logo">LAMSA</div>
+
+    
+<nav class="navbar">
+        <a href="index.html">الرئيسية</a>
+        <a href="perfums.html">العطور</a>
+        <a href="bestsellers.html">الأكثر مبيعاً</a>
+        <a href="offers.html" class="active">العروض</a>
+        <a href="about.html">من نحن</a>
+        <a href="contact.html">تواصل معنا</a>
+    </nav>
+
+    <a href="cart.html" class="cart-icon">
+        🛒 <span id="cart-count">0</span>
+    </a>
+</header>
+
+<main>
+
+    <!-- عنوان الصفحة -->
+    <section class="page-title">
+        <h1>عروض LAMSA</h1>
+        <p>اكتشفي عطورك المفضلة بأسعار مميزة</p>
+    </section>
+
+    <!-- العرض الرئيسي -->
+    <section class="offers-hero">
+        <div class="offers-hero-content">
+            <span>عروض لا تفوّت</span>
+            <h2>لأنك تستحقين التميز</h2>
+            <p>
+                استمتعي بتجربة عطرية فاخرة مع خصومات مميزة
+                على مجموعة مختارة من عطورنا.
+            </p>
+            <a href="#discount-products" class="btn">
+                اكتشفي العروض
+            </a>
+        </div>
+
+        <div class="offers-hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=700"
+                alt="عطر فاخر">
+        </div>
+    </section>
+
+    <!-- بطاقات الخصومات -->
+    <section class="discount-section">
+        <h2 class="section-title">تسوقي حسب العرض</h2>
+
+        <div class="discount-cards">
+
+            <div class="discount-card">
+                <span>خصم يصل إلى</span>
+                <h3>30%</h3>
+                <p>على العطور النسائية</p>
+                <a href="#discount-products">تسوقي الآن</a>
+            </div>
+
+            <div class="discount-card">
+                <span>خصم يصل إلى</span>
+                <h3>40%</h3>
+                <p>على العطور الرجالية</p>
+                <a href="#discount-products">تسوق الآن</a>
+            </div>
+
+            <div class="discount-card">
+                <span>عرض مميز</span>
+                <h3>20%</h3>
+                <p>على العطور المختارة</p>
+                <a href="#discount-products">اكتشفي العرض</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- المنتجات المخفضة -->
+    <section class="products-section" id="discount-products">
+
+        <div class="section-heading">
+            <h2 class="section-title">منتجات عليها خصومات</h2>
+            <p>اختاري عطرك المفضل واستمتعي بالسعر الجديد</p>
+        </div>
+
+        <div class="products-grid">
+
+            <!-- المنتج الأول -->
+            <div class="product-card">
+                <span class="sale-badge">خصم 30%</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=500"
+                    alt="Rose Bunni">
+
+                <div class="product-info">
+                    <h3>Rose Bunni</h3>
+                    <p>عطر نسائي فاخر</p>
+
+                    <div class="product-price">
+                        <span class="old-price">349 ر.س</span>
+                        <strong>244 ر.س</strong>
+                    </div>
+
+                    <button
+                        class="add-to-cart"
+                        data-id="1"
+                        data-name="Rose Bunni"
+                        data-price="244"
+                        data-image="https://images.unsplash.com/photo-1541643600914-78b084683601?w=500">
+                        أضيفي إلى السلة
+                    </button>
+                </div>
+            </div>
+
+            <!-- المنتج الثاني -->
+            <div class="product-card">
+                <span class="sale-badge">خصم 25%</span>
+<img
+                    src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500"
+                    alt="Lamir">
+
+                <div class="product-info">
+                    <h3>Lamir</h3>
+                    <p>عطر أنيق وجذاب</p>
+
+                    <div class="product-price">
+                        <span class="old-price">299 ر.س</span>
+                        <strong>224 ر.س</strong>
+                    </div>
+
+                    <button
+                        class="add-to-cart"
+                        data-id="2"
+                        data-name="Lamir"
+                        data-price="224"
+                        data-image="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500">
+                        أضيفي إلى السلة
+                    </button>
+                </div>
+            </div>
+
+            <!-- المنتج الثالث -->
+            <div class="product-card">
+                <span class="sale-badge">خصم 40%</span>
+
+                <img
+                    src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500"
+                    alt="Shatha">
+
+                <div class="product-info">
+                    <h3>Shatha</h3>
+                    <p>عطر رجالي مميز</p>
+
+                    <div class="product-price">
+                        <span class="old-price">399 ر.س</span>
+                        <strong>239 ر.س</strong>
+                    </div>
+
+                    <button
+                        class="add-to-cart"
+                        data-id="3"
+                        data-name="Shatha"
+                        data-price="239"
+                        data-image="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500">
+                        أضف إلى السلة
+                    </button>
+                </div>
+            </div>
+
+           <!-- المنتج الرابع -->
+
+        <div class="product-card">
+                <span class="sale-badge">خصم 50%</span>
+
+
+            <img
+                src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500"
+                alt="عطر فانيلا">
+
+            <div class="product-info">
+
+            <h3>عطر فانيلا</h3>
+           <p>عطر  مميز دافي</p>
+            <div class="price">
+                <span class="old-price"> 329ر.س</span>
+                        <strong>164 ر.س</strong>
+                    </div>
+                
+
+            <button
+                class="btn small add-to-cart"
+                data-id="4"
+                data-name="عطر فانيلا"
+                data-price="329"
+                data-image="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=500">
+
+                أضف إلى السلة ♡
+
+            </button>
+ </div>
+            </div>
+
+        
+
+
+    
+</main>
+
+<!-- الفوتر -->
+<footer class="footer">
+    <div class="footer-content">
+        <h2>LAMSA</h2>
+        <p>لمسة عطر تترك أثراً لا يُنسى.</p>
+
+        <div class="footer-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="about.html">من نحن</a>
+            <a href="contact.html">تواصل معنا</a>
+        </div>
+
+        <p class="copyright">
+            جميع الحقوق محفوظة © 2026 LAMSA
+        </p>
+    </div>
+</footer>
+
+<!-- رسالة الإضافة إلى السلة -->
+<div id="toast" class="toast"></div>
+
+</body>
+</html>

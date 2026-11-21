@@ -1,0 +1,184 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>سلة التسوق | LAMSA</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+</head><body><!-- الشريط العلوي -->
+<div class="top-bar">
+    شكراً لاختيارك LAMSA 💗
+</div>
+
+<!-- القائمة الرئيسية -->
+<header class="header">
+
+    <div class="logo">LAMSA</div>
+
+    <nav class="navbar">
+        <a href="index.html">الرئيسية</a>
+        <a href="perfums.html">العطور</a>
+        <a href="bestsellers.html">الأكثر مبيعاً</a>
+        <a href="offers.html">العروض</a>
+        <a href="about.html">من نحن</a>
+        <a href="contact.html">تواصل معنا</a>
+    </nav>
+
+    <a href="cart.html" class="cart-icon active">
+        🛒 <span id="cart-count">0</span>
+    </a>
+
+</header>
+
+<main>
+
+    <!-- عنوان الصفحة -->
+    <section class="page-title">
+        <h1>سلة التسوق</h1>
+        <p>راجعي اختياراتك قبل إتمام طلبك</p>
+    </section>
+
+    <!-- محتوى السلة -->
+    <section class="cart-section">
+
+        <div class="cart-container">
+
+            <!-- المنتجات -->
+            <div class="cart-products-container">
+
+                <div class="cart-heading">
+                    <h2>منتجاتك المختارة</h2>
+                    <span id="cart-items-count">0 منتجات</span>
+                </div>
+
+                <!-- هنا يعرض JavaScript المنتجات -->
+                <div id="cart-items" class="cart-items">
+
+                    <div class="empty-cart">
+                        <div class="empty-cart-icon">🛍️</div>
+
+                        <h2>سلتك فارغة حالياً</h2>
+
+                        <p>
+                            لم تضيفي أي عطر إلى سلتك بعد.
+                            اكتشفي مجموعتنا واختاري عطرك المفضل.
+                        </p>
+
+                        <a href="perfums.html" class="btn">
+                            ابدئي التسوق
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="cart-actions">
+                    <a href="perfums.html" class="continue-shopping">
+                        ← متابعة التسوق
+                    </a>
+
+                    <button
+                        type="button"
+                        id="clear-cart"
+                        class="clear-cart-btn">
+                        إفراغ السلة
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- ملخص الطلب -->
+            <aside class="cart-summary">
+
+                <h2>ملخص الطلب</h2>
+
+                <div class="summary-row">
+                    <span>عدد المنتجات</span>
+                    <strong id="summary-quantity">0</strong>
+                </div>
+
+                <div class="summary-row">
+                    <span>المجموع الفرعي</span>
+                    <strong id="cart-subtotal">0 ر.س</strong>
+                </div>
+
+                <div class="summary-row">
+                    <span>الشحن</span>
+                    <strong id="shipping-cost">مجاني</strong>
+                </div>
+
+                <div class="summary-divider"></div>
+
+                <div class="summary-total">
+                    <span>الإجمالي</span>
+                    <strong id="cart-total">0 ر.س</strong>
+                </div>
+
+                <button
+                    type="button"
+                    id="checkout-btn"
+                    class="checkout-btn">
+                    إتمام الطلب
+                </button>
+
+                <p class="cart-note">
+                    ✨ نتمنى لك تجربة تسوق ممتعة مع LAMSA
+                </p>
+
+            </aside>
+
+        </div>
+
+    </section>
+
+    <!-- مميزات المتجر -->
+    <section class="cart-benefits">
+
+        <div class="benefit-item">
+            <span>🚚</span>
+            <h3>توصيل مميز</h3>
+            <p>تجربة تسوق سهلة ومريحة</p>
+        </div>
+
+        <div class="benefit-item">
+            <span>💎</span>
+            <h3>جودة واهتمام</h3>
+            <p>نهتم بتفاصيل تجربتك</p>
+        </div>
+<div class="benefit-item">
+            <span>🎁</span>
+            <h3>تسوق ممتع</h3>
+            <p>اختاري عطرك المفضل</p>
+        </div>
+
+    </section>
+
+</main>
+
+<!-- الفوتر -->
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <h2>LAMSA</h2>
+
+        <p>لمسة عطر تترك أثراً لا يُنسى.</p>
+
+        <div class="footer-links">
+            <a href="index.html">الرئيسية</a>
+            <a href="perfums.html">العطور</a>
+            <a href="offers.html">العروض</a>
+            <a href="contact.html">تواصل معنا</a>
+        </div>
+
+        <p class="copyright">
+            جميع الحقوق محفوظة © 2026 LAMSA
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- رسائل التنبيه -->
+<div id="toast" class="toast"></div>
+
+</body></html>
